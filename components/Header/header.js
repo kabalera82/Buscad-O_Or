@@ -13,7 +13,7 @@ const Header = () => {
     document.querySelector("header").innerHTML = template();
     NavBar(); // Llamar a NavBar para insertar el contenido de la navegación
     
-};
+};	
 
 export default Header;
 
