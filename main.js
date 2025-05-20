@@ -7,7 +7,7 @@ const buildWebsite = () => { // Function to build the website
     Header(); // Call the Header function
     Main(); // Call the Main function
     Footer(); // Call the Footer function
-    getPhotos("");
+    getPhotos("nature");
 }
 
 const CLIENT_ID = import.meta.env.VITE_CLIENT_ID; 
